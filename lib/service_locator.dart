@@ -1,3 +1,4 @@
+import 'package:demo_project/scoped_models/auth_model.dart';
 import 'package:demo_project/scoped_models/error_model.dart';
 import 'package:demo_project/scoped_models/home_model.dart';
 import 'package:demo_project/scoped_models/success_model.dart';
@@ -14,4 +15,5 @@ void setupLocator() {
   locator.registerFactory<HomeModel>(() => HomeModel());
   locator.registerFactory<ErrorModel>(() => ErrorModel());
   locator.registerFactory<SuccessModel>(() => SuccessModel());
+  locator.registerFactory<AuthnModel>(() => AuthnModel());
 }

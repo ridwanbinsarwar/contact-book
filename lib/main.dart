@@ -1,4 +1,5 @@
 import 'package:demo_project/ui/views/home_view.dart';
+import 'package:demo_project/ui/views/login_view.dart';
 import 'package:flutter/material.dart';
 import 'service_locator.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeView(),
+      home: LoginView(),
     );
   }
 }
